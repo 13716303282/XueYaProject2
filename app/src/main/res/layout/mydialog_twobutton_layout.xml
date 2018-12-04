@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="@dimen/standard_margin"
+    android:layout_marginRight="@dimen/standard_margin"
+    android:background="#f9f9f9"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mydialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="提示"
+        android:textColor="#ccc"
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#c1c1c1"
+        android:layout_height="1dp"/>
+
+
+    <NumberPicker
+        android:id="@+id/picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#ccc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null" >
+
+        <TextView
+            android:id="@+id/mydialog_twobutton_layout_left_button"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/common_item_selected"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/background_color" />
+
+        <TextView
+            android:id="@+id/mydialog_twobutton_layout_right_button"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/common_item_selected"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

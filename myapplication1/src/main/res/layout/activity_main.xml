@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<personlife.gst.com.myapplication1.Mylinear
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lin1"
+    android:orientation="horizontal"
+  >
+
+    <personlife.gst.com.myapplication1.MyTextView
+        android:id="@+id/tv_1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:text="第一个按钮"
+        android:gravity="center"
+        android:background="#c1c1"
+       />
+    <personlife.gst.com.myapplication1.MyTextView
+        android:id="@+id/tv_2"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:background="#c1c1"
+        android:text="第二个按钮"/>
+
+
+</personlife.gst.com.myapplication1.Mylinear>
